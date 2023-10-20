@@ -26,6 +26,7 @@ public class ArticleDTO {
     private String regip;
     private LocalDateTime rdate;
 
+
     public ArticleEntity toEntity(){
         return ArticleEntity.builder()
                 .no(no)
